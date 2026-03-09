@@ -27,7 +27,7 @@ export function ServiceCard({
     >
       <div className="relative">
         <div className="mb-4 text-purple-600">{icon}</div>
-        <span className="absolute right-0 top-0 rounded-full bg-purple-100 px-2 py-1 text-xs text-purple-600">
+        <span className="absolute top-0 right-0 rounded-full bg-purple-100 px-2 py-1 text-xs text-purple-600">
           {tag}
         </span>
       </div>

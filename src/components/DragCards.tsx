@@ -94,11 +94,11 @@ const Card = ({
     let maxZIndex = -Infinity;
 
     els.forEach((el) => {
-      const zIndex = parseInt(
-        window.getComputedStyle(el).getPropertyValue("z-index")
+      const zIndex = Number.parseInt(
+        globalThis.getComputedStyle(el).getPropertyValue("z-index")
       );
 
-      if (!isNaN(zIndex) && zIndex > maxZIndex) {
+      if (!Number.isNaN(zIndex) && zIndex > maxZIndex) {
         maxZIndex = zIndex;
       }
     });
