@@ -10,6 +10,7 @@ const DragCards = lazy(() => import("@/components/DragCards"));
 const Portfolio = lazy(() => import("@/components/Portfolio"));
 const WhyChooseUs = lazy(() => import("@/components/WhyChooseUs/WhyChooseUs"));
 const Contact = lazy(() => import("@/components/Contact"));
+const Footer = lazy(() => import("@/components/Footer"));
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Portfolio />
         <WhyChooseUs />
         <Contact />
+        <Footer />
       </Suspense>
     </div>
   );

@@ -1,4 +1,4 @@
-export function Footer() {
+export default function Footer() {
   return (
     <div className="mt-8 border-t pt-8">
       <div className="flex flex-col items-center justify-between md:flex-row">
