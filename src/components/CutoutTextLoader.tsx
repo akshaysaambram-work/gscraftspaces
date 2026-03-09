@@ -2,7 +2,7 @@ export function Loading() {
   return (
     <div className="">
       <CutoutTextLoader
-        height="575px"
+        height="100svh"
         background="white"
         // NOTE: Using GIFs for the background looks super cool :)
         imgUrl="https://images.unsplash.com/photo-1588432273887-7968301a3d2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
