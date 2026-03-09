@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://gscraftspaces.com",
+  // "homepage": "https://gscraftspaces.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
